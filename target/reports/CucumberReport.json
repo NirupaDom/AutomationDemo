@@ -1,0 +1,876 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1675036200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookTest.beforeScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "add to wishlist",
+        "description": "",
+        "id": "add-a-dress-to-wishlist;add-to-wishlist",
+        "after": [
+          {
+            "result": {
+              "duration": 34300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookTest.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d104.0.5112.102)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-CDFCV4P\u0027, ip: \u0027192.168.1.38\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.3.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\nirup\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57964}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1c331f41097fff3bb815a3c7f92f5a55\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat StepDefinition.RegisterSteps.User_is_on_Automation_practice_website(RegisterSteps.java:27)\r\n\tat ✽.User is on Automation practice website(file:src/test/java/Feature/AddToWishlist.feature:5)\r\n",
+              "duration": 2125678800,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User is on Automation practice website",
+            "match": {
+              "location": "RegisterSteps.User_is_on_Automation_practice_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10600,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user select signin button",
+            "match": {
+              "location": "RegisterSteps.user_select_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5800,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user enter valid credentials \"try2204@gmail.com\" and \"Welcome99\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"try2204@gmail.com\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Welcome99\"",
+                  "offset": 53
+                }
+              ],
+              "location": "LoginSteps.user_enter_valid_credentials_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3800,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user select Sign in",
+            "match": {
+              "location": "LoginSteps.user_select_Sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3700,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user search for \"blue dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "blue dress",
+                  "offset": 17
+                }
+              ],
+              "location": "RegisterSteps.user_search_for_blue_dress(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3500,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "list of blue dresses displayed",
+            "match": {
+              "location": "RegisterSteps.list_of_blue_dresses_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3500,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User select the fisrt dress to wish list",
+            "match": {
+              "location": "RegisterSteps.user_select_the_fisrt_dress_to_wish_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3600,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Added to your wishlist msg is displayed",
+            "match": {
+              "location": "RegisterSteps.WishList_msg_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wishlist"
+          }
+        ]
+      }
+    ],
+    "name": "Add a dress to wishlist",
+    "description": "",
+    "id": "add-a-dress-to-wishlist",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/AddToWishlist.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 959935500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookTest.beforeScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Add to cart and proceed to checkout",
+        "description": "",
+        "id": "purchase-an-item;add-to-cart-and-proceed-to-checkout",
+        "after": [
+          {
+            "result": {
+              "duration": 31200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookTest.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d104.0.5112.102)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-CDFCV4P\u0027, ip: \u0027192.168.1.38\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.3.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\nirup\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57981}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 5f85b96946de8bed141656538eddad3b\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat StepDefinition.RegisterSteps.User_is_on_Automation_practice_website(RegisterSteps.java:27)\r\n\tat ✽.User is on Automation practice website(file:src/test/java/Feature/Checkout.feature:5)\r\n",
+              "duration": 1522634600,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User is on Automation practice website",
+            "match": {
+              "location": "RegisterSteps.User_is_on_Automation_practice_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13200,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user select signin button",
+            "match": {
+              "location": "RegisterSteps.user_select_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3700,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user enter valid credentials \"try2204@gmail.com\" and \"Welcome99\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"try2204@gmail.com\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Welcome99\"",
+                  "offset": 53
+                }
+              ],
+              "location": "LoginSteps.user_enter_valid_credentials_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3500,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user select Sign in",
+            "match": {
+              "location": "LoginSteps.user_select_Sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3500,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user search for \"blue dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "blue dress",
+                  "offset": 17
+                }
+              ],
+              "location": "RegisterSteps.user_search_for_blue_dress(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3400,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "list of blue dresses displayed",
+            "match": {
+              "location": "RegisterSteps.list_of_blue_dresses_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3300,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user add the first item to the cart",
+            "match": {
+              "location": "CheckoutSteps.user_add_the_first_item_to_the_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3800,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "product is successfully added to shopping cart is displayed",
+            "match": {
+              "location": "CheckoutSteps.product_is_successfully_added_to_shopping_cart_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5100,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user select the proceed to checkout",
+            "match": {
+              "location": "CheckoutSteps.user_select_the_proceed_to_checkout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3900,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Shopping cart summary is displayed",
+            "match": {
+              "location": "CheckoutSteps.shopping_cart_summary_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3400,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Invoice value is verified",
+            "match": {
+              "location": "CheckoutSteps.invoice_value_is_verified()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3600,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user select the proceed",
+            "match": {
+              "location": "CheckoutSteps.user_select_the_proceed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4600,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "process address is selected",
+            "match": {
+              "location": "CheckoutSteps.process_address_is_selected()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3500,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "choose terms of service checkbox for delivery method",
+            "match": {
+              "location": "CheckoutSteps.choose_terms_of_service_checkbox_for_delivery_method()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4400,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "process carrier is selected",
+            "match": {
+              "location": "CheckoutSteps.process_carrier_is_selected()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3100,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Payment Method page is displayed",
+            "match": {
+              "location": "CheckoutSteps.payment_Method_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3800,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user select the payment method",
+            "match": {
+              "location": "CheckoutSteps.user_select_the_payment_method()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3600,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "select the confirm order",
+            "match": {
+              "location": "CheckoutSteps.selct_the_confirm_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3400,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Order confirmation page is displayed",
+            "match": {
+              "location": "CheckoutSteps.order_confirmation_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@purchase"
+          }
+        ]
+      }
+    ],
+    "name": "Purchase an item",
+    "description": "",
+    "id": "purchase-an-item",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/Checkout.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d104.0.5112.102)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-CDFCV4P\u0027, ip: \u0027192.168.1.38\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.3.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\nirup\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58000}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 5e7f887b743d00b9db5b2adcd8a8fa18\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat StepDefinition.RegisterSteps.User_is_on_Automation_practice_website(RegisterSteps.java:27)\r\n\tat ✽.User is on Automation practice website(file:src/test/java/Feature/Login.feature:3)\r\n",
+              "duration": 1516995600,
+              "status": "failed"
+            },
+            "line": 3,
+            "name": "User is on Automation practice website",
+            "match": {
+              "location": "RegisterSteps.User_is_on_Automation_practice_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1070738100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookTest.beforeScenario()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Login into automation practice with valid credentials",
+        "description": "",
+        "id": "login-using-the-valid-credentials;login-into-automation-practice-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 24100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookTest.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10500,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user select signin button",
+            "match": {
+              "location": "RegisterSteps.user_select_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3800,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "authentication page is displayed",
+            "match": {
+              "location": "LoginSteps.authentication_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3800,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user enter valid credentials \"try2204@gmail.com\" and \"Welcome99\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"try2204@gmail.com\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Welcome99\"",
+                  "offset": 53
+                }
+              ],
+              "location": "LoginSteps.user_enter_valid_credentials_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3500,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user select Sign in",
+            "match": {
+              "location": "LoginSteps.user_select_Sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "account details page is displayed",
+            "match": {
+              "location": "RegisterSteps.account_details_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Login using the valid credentials",
+    "description": "",
+    "id": "login-using-the-valid-credentials",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 962931500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookTest.beforeScenario()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Register and activate account",
+        "description": "",
+        "id": "create-an-account-and-signout;register-and-activate-account;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 27300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookTest.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d104.0.5112.102)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-CDFCV4P\u0027, ip: \u0027192.168.1.38\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.3.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\nirup\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58017}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b47e64737d2d9837af8128b2ee599b69\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat StepDefinition.RegisterSteps.User_is_on_Automation_practice_website(RegisterSteps.java:27)\r\n\tat ✽.User is on Automation practice website(file:src/test/java/Feature/Register.feature:5)\r\n",
+              "duration": 871969200,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User is on Automation practice website",
+            "match": {
+              "location": "RegisterSteps.User_is_on_Automation_practice_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8500,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user select signin button",
+            "match": {
+              "location": "RegisterSteps.user_select_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4200,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "create an acccount page is displayed",
+            "match": {
+              "location": "RegisterSteps.create_an_acccount_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7100,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user enter valid email \"try36@gmail.com\" and select create an account",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"try36@gmail.com\"",
+                  "offset": 23
+                }
+              ],
+              "location": "RegisterSteps.user_enter_valid_email_and_select_create_an_account(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3800,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user provide the personal information \"debbie\" \"mortimer\" \"Welcome99\" \"63 Barrossa way\" \"Edison\" \"New Jersey\" \"81345\" \"0017323334602\" \"home\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"debbie\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"mortimer\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"Welcome99\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"63 Barrossa way\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"Edison\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"New Jersey\"",
+                  "offset": 97
+                },
+                {
+                  "val": "\"81345\"",
+                  "offset": 110
+                },
+                {
+                  "val": "\"0017323334602\"",
+                  "offset": 118
+                },
+                {
+                  "val": "\"home\"",
+                  "offset": 134
+                }
+              ],
+              "location": "RegisterSteps.user_provide_the_personal_information(String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3400,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user click on register button",
+            "match": {
+              "location": "RegisterSteps.user_click_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3400,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "account details page is displayed",
+            "match": {
+              "location": "RegisterSteps.account_details_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      }
+    ],
+    "name": "Create an account and signout",
+    "description": "",
+    "id": "create-an-account-and-signout",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/Register.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1071754600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookTest.beforeScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "search",
+        "description": "",
+        "id": "search-for-a-dress;search",
+        "after": [
+          {
+            "result": {
+              "duration": 21600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookTest.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d104.0.5112.102)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-CDFCV4P\u0027, ip: \u0027192.168.1.38\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.3.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\nirup\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58035}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 20d4a003d07d825d9094c8590219c064\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat StepDefinition.RegisterSteps.User_is_on_Automation_practice_website(RegisterSteps.java:27)\r\n\tat ✽.User is on Automation practice website(file:src/test/java/Feature/Search.feature:5)\r\n",
+              "duration": 811464200,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User is on Automation practice website",
+            "match": {
+              "location": "RegisterSteps.User_is_on_Automation_practice_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12500,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user search for \"blue dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "blue dress",
+                  "offset": 17
+                }
+              ],
+              "location": "RegisterSteps.user_search_for_blue_dress(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4100,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user select the first blue dress from list",
+            "match": {
+              "location": "RegisterSteps.user_select_the_first_blue_dress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3900,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "blue dress is displayed",
+            "match": {
+              "location": "RegisterSteps.blue_dress_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search"
+          }
+        ]
+      }
+    ],
+    "name": "Search for a dress",
+    "description": "",
+    "id": "search-for-a-dress",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/Search.feature",
+    "tags": []
+  }
+]
